@@ -1,2 +1,18 @@
-Create q1.java file
+import java.util.Scanner;
+
+public class q1{
+    public static void main(String[] args) {
+        Scanner num = new Scanner(System.in);
+
+        int N = num.nextInt();
+
+        if(N%2 == 0){
+            System.out.println("Even");
+        }
+        else{
+            System.out.println("Odd");
+        }
+    }
+}
+
   
