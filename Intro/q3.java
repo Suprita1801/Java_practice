@@ -1,3 +1,4 @@
+// Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
 package Intro;
 
 import java.util.Scanner;
@@ -18,7 +19,7 @@ public class q3 {
         int SI = (P*N*R)/100;
 
         System.out.println("The Simple interest is : " + SI);
-        
+
     }
     
 }
